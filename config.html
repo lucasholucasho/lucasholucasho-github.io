@@ -144,8 +144,8 @@ $(function() {
     if (!options) {
       return {};
     }
-    var g1 = options.start ? options.start: 'rich';
-    var g2 = options.end ? options.end: 'rich';
+    var g1 = options.start;
+    var g2 = options.end;
     $("input:radio[name=group1][value=" + g1 + "]").attr('checked', 'checked');
     $("input:radio[name=group2][value=" + g2 + "]").attr('checked', 'checked');
     //$( "input:radio[name=group1]:checked" ).val(options.start ? options.start: 'rich');
