@@ -144,8 +144,12 @@ $(function() {
     if (!options) {
       return {};
     }
-    $( "input:radio[name=group1]:checked" ).val(options.start ? options.start: 'rich');
-    $( "input:radio[name=group2]:checked" ).val(options.end ? options.end: 'rich');
+    var g1 = options.start ? options.start: 'rich';
+    var g2 = options.end ? options.end: 'rich';
+    $("input:radio[name=group1][value=" + g1 + "]").attr('checked', 'checked');
+    $("input:radio[name=group2][value=" + g2 + "]").attr('checked', 'checked');
+    //$( "input:radio[name=group1]:checked" ).val(options.start ? options.start: 'rich');
+    //$( "input:radio[name=group2]:checked" ).val(options.end ? options.end: 'rich');
     //$('#from-station').val(options.scriptUrl ? options.scriptUrl : 'http://meiguro.com/simplyjs/demo.js');
     return options;
   };
