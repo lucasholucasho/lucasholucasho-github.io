@@ -1,0 +1,173 @@
+<!doctype html5>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Next BART Settings</title>
+<link href="/favicon.ico" rel="icon" />
+<link href="foundation.css" rel="stylesheet" />
+<link href="base.css" rel="stylesheet" />
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js' type='text/javascript'>
+ </script>
+ <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js' type='text/javascript'>
+ </script>
+<!--
+<script src="//cdn.jsdelivr.net/foundation/4.0.2/js/vendor/custom.modernizr.js"></script>
+<script src="//cdn.jsdelivr.net/foundation/4.0.2/js/foundation.min.js"></script>
+-->
+</head>
+<body>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <h2>Next BART Settings</h2>
+    </div>
+  </div>
+  <section>
+    <div class="row">
+      <div class="small-12 columns">
+        <label for="from-station"><h2>From Station</h2></label>
+        <form name="from-station">
+        <input type="radio" name="group1" value="12th"> 12th St. Oakland City Center<br>
+        <input type="radio" name="group1" value="16th"> 16th St. Mission (SF)<br>
+        <input type="radio" name="group1" value="19th"> 19th St. Oakland <br>
+        <input type="radio" name="group1" value="24th"> 24th St. Mission (SF)<br>
+        <input type="radio" name="group1" value="ashb"> Ashby (Berkeley)<br>
+        <input type="radio" name="group1" value="balb"> Balboa Park (SF)<br>
+        <input type="radio" name="group1" value="bayf"> Bay Fair (San Leandro)<br>
+        <input type="radio" name="group1" value="cast"> Castro Valley<br>
+        <input type="radio" name="group1" value="civc"> Civic Center (SF) <br>
+        <input type="radio" name="group1" value="cols"> Coliseum/Oakland Airport<br>
+        <input type="radio" name="group1" value="colm"> Colma<br>
+        <input type="radio" name="group1" value="conc"> Concord<br>
+        
+        <input type="radio" name="group1" value="daly"> Daly City<br>
+        <input type="radio" name="group1" value="dbrk"> Downtown Berkeley<br>
+        <input type="radio" name="group1" value="dubl"> Dublin/Pleasanton <br>
+        <input type="radio" name="group1" value="deln"> El Cerrito del Norte<br>
+        <input type="radio" name="group1" value="plza"> El Cerrito Plaza<br>
+        <input type="radio" name="group1" value="embr"> Embarcadero (SF)<br>
+        <input type="radio" name="group1" value="frmt"> Fremont<br>
+        <input type="radio" name="group1" value="ftvl"> Fruitvale (Oakland)<br>
+        <input type="radio" name="group1" value="glen"> Glen Park (SF) <br>
+        <input type="radio" name="group1" value="hayw"> Hayward<br>
+        <input type="radio" name="group1" value="lafy"> Lafayette<br>
+        <input type="radio" name="group1" value="lake"> Lake Merritt (Oakland)<br>
+        
+        <input type="radio" name="group1" value="mcar"> MacArthur (Oakland)<br>
+        <input type="radio" name="group1" value="mlbr"> Millbrae<br>
+        <input type="radio" name="group1" value="mont"> Montgomery St. (SF) <br>
+        <input type="radio" name="group1" value="nbrk"> North Berkeley<br>
+        <input type="radio" name="group1" value="ncon"> North Concord/Martinez<br>
+        <input type="radio" name="group1" value="orin"> Orinda<br>
+        <input type="radio" name="group1" value="pitt"> Pittsburg/Bay Point<br>
+        <input type="radio" name="group1" value="phil"> Pleasant Hill<br>
+        <input type="radio" name="group1" value="powl"> Powell St. (SF) <br>
+        <input type="radio" name="group1" value="rich"> Richmond<br>
+        <input type="radio" name="group1" value="rock"> Rockridge (Oakland)<br>
+        <input type="radio" name="group1" value="sbrn"> San Bruno<br>
+        
+        <input type="radio" name="group1" value="sfia"> San Francisco Int'l Airport<br>
+        <input type="radio" name="group1" value="sanl"> San Leandro<br>
+        <input type="radio" name="group1" value="shay"> South Hayward <br>
+        <input type="radio" name="group1" value="ssan"> South San Francisco<br>
+        <input type="radio" name="group1" value="ucty"> Union City<br>
+        <input type="radio" name="group1" value="wcrk"> Walnut Creek<br>
+        <input type="radio" name="group1" value="wdub"> West Dublin<br>
+        <input type="radio" name="group1" value="woak"> West Oakland<br>
+        </form>
+        <label for="to-station"><h2>To Station</h2></label>
+        <form name="to-station">
+        <input type="radio" name="group2" value="12th"> 12th St. Oakland City Center<br>
+        <input type="radio" name="group2" value="16th"> 16th St. Mission (SF)<br>
+        <input type="radio" name="group2" value="19th"> 19th St. Oakland <br>
+        <input type="radio" name="group2" value="24th"> 24th St. Mission (SF)<br>
+        <input type="radio" name="group2" value="ashb"> Ashby (Berkeley)<br>
+        <input type="radio" name="group2" value="balb"> Balboa Park (SF)<br>
+        <input type="radio" name="group2" value="bayf"> Bay Fair (San Leandro)<br>
+        <input type="radio" name="group2" value="cast"> Castro Valley<br>
+        <input type="radio" name="group2" value="civc"> Civic Center (SF) <br>
+        <input type="radio" name="group2" value="cols"> Coliseum/Oakland Airport<br>
+        <input type="radio" name="group2" value="colm"> Colma<br>
+        <input type="radio" name="group2" value="conc"> Concord<br>
+        
+        <input type="radio" name="group2" value="daly"> Daly City<br>
+        <input type="radio" name="group2" value="dbrk"> Downtown Berkeley<br>
+        <input type="radio" name="group2" value="dubl"> Dublin/Pleasanton <br>
+        <input type="radio" name="group2" value="deln"> El Cerrito del Norte<br>
+        <input type="radio" name="group2" value="plza"> El Cerrito Plaza<br>
+        <input type="radio" name="group2" value="embr"> Embarcadero (SF)<br>
+        <input type="radio" name="group2" value="frmt"> Fremont<br>
+        <input type="radio" name="group2" value="ftvl"> Fruitvale (Oakland)<br>
+        <input type="radio" name="group2" value="glen"> Glen Park (SF) <br>
+        <input type="radio" name="group2" value="hayw"> Hayward<br>
+        <input type="radio" name="group2" value="lafy"> Lafayette<br>
+        <input type="radio" name="group2" value="lake"> Lake Merritt (Oakland)<br>
+        
+        <input type="radio" name="group2" value="mcar"> MacArthur (Oakland)<br>
+        <input type="radio" name="group2" value="mlbr"> Millbrae<br>
+        <input type="radio" name="group2" value="mont"> Montgomery St. (SF) <br>
+        <input type="radio" name="group2" value="nbrk"> North Berkeley<br>
+        <input type="radio" name="group2" value="ncon"> North Concord/Martinez<br>
+        <input type="radio" name="group2" value="orin"> Orinda<br>
+        <input type="radio" name="group2" value="pitt"> Pittsburg/Bay Point<br>
+        <input type="radio" name="group2" value="phil"> Pleasant Hill<br>
+        <input type="radio" name="group2" value="powl"> Powell St. (SF) <br>
+        <input type="radio" name="group2" value="rich"> Richmond<br>
+        <input type="radio" name="group2" value="rock"> Rockridge (Oakland)<br>
+        <input type="radio" name="group2" value="sbrn"> San Bruno<br>
+        
+        <input type="radio" name="group2" value="sfia"> San Francisco Int'l Airport<br>
+        <input type="radio" name="group2" value="sanl"> San Leandro<br>
+        <input type="radio" name="group2" value="shay"> South Hayward <br>
+        <input type="radio" name="group2" value="ssan"> South San Francisco<br>
+        <input type="radio" name="group2" value="ucty"> Union City<br>
+        <input type="radio" name="group2" value="wcrk"> Walnut Creek<br>
+        <input type="radio" name="group2" value="wdub"> West Dublin<br>
+        <input type="radio" name="group2" value="woak"> West Oakland<br>
+        </form>
+        <ul class="action">
+          <li><a id="save-button" class="next">Save</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+<script>
+$(function() {
+  var setOptions = function() {
+    var options = window.location.hash;
+    if (!options) {
+      return {};
+    }
+    var options = JSON.parse(decodeURIComponent(options.substr(1)));
+    if (!options) {
+      return {};
+    }
+    var g1 = options.start;
+    var g2 = options.end;
+    $("input:radio[name=group1][value=" + g1 + "]").attr('checked', 'checked');
+    $("input:radio[name=group2][value=" + g2 + "]").attr('checked', 'checked');
+    //$( "input:radio[name=group1]:checked" ).val(options.start ? options.start: 'rich');
+    //$( "input:radio[name=group2]:checked" ).val(options.end ? options.end: 'rich');
+    //$('#from-station').val(options.scriptUrl ? options.scriptUrl : 'http://meiguro.com/simplyjs/demo.js');
+    return options;
+  };
+
+  var getOptions = function() {
+    var options = {};
+    options.start = $( "input:radio[name=group1]:checked" ).val();
+    options.end = $( "input:radio[name=group2]:checked" ).val();
+    return options;
+  };
+
+  $("#save-button").click(function() {
+    document.location = 'pebblejs://close#' + encodeURIComponent(JSON.stringify(getOptions()));
+    console.log(document.location);
+  });
+
+  setOptions();
+});
+</script>
+</body>
+</html>
